@@ -1,0 +1,135 @@
+:root {
+    --color_botones: #6C63FF;
+    --fuente_texto: 'Inter', sans-serif;
+    --background: #F3F5FC;
+    --color_texto: #495057;
+
+}
+
+@media screen and (min-width:960px) {
+    .logo {
+        height: 2rem;
+        margin-left: 1rem;
+    }
+
+    .main {
+        display: flex;
+        width: 96%;
+        margin: 1rem 2%;
+        /* background-color: violet; */
+    }
+    .section_1 {
+        width: 70%;
+    }
+    .text_area {
+        resize: none;
+        width: 100%;
+        height: 30rem;
+        background-color: transparent;
+        outline: none;
+        border: none;
+        font-size: var(--fuente_texto);
+        font-size: 1.1rem;
+    }
+
+    .secction_2 {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        /* justify-content: center; */
+        /* background-color: #6C63FF; */
+    }
+
+    .content_ningun_mensaje {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .text_area_encriptado {
+        width: 65%;
+        height: 36rem;
+        border-radius: 20px;
+        outline: none;
+        border: none;
+        resize: none;
+        padding: 1rem;
+        font-size: var(--fuente_texto);
+        font-size: 1.1rem;
+    }
+
+
+    .informacion {
+        display: flex;
+        align-items: center;
+        width: 70%;
+        justify-content: flex-start;
+        margin: auto;
+    }
+
+    .fi-sr-exclamation {
+        margin-right: .5rem;
+    }
+
+    .botones {
+        display: flex;
+        justify-content: space-around;
+        width: 70%;
+        margin: auto;
+    }
+
+    .btn_encriptar {
+        width: 35%;
+        height: 3rem;
+        font-weight: 600;
+        color: var(--background);
+        background-color: var(--color_botones);
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+
+    }
+
+    .btn_desencriptar {
+        width: 35%;
+        height: 3rem;
+        font-weight: 600;
+        color: var(--background);
+        background-color: #66648692;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+    .content_ningun_mensaje {
+        /* background-color: #6C63FF; */
+        position: relative;
+    }
+
+    .ningun_mensaje {
+        position: absolute;
+        width: 60%;
+        top: 20%;
+    }
+
+    .container_copiar {
+        position: absolute;
+        bottom: 2%;
+    }
+
+    .btn_copiar {
+        width: 12rem;
+        height: 3rem;
+        background-color: transparent;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+    .ningun_imagen{
+        width: 80%;
+    }
+}
